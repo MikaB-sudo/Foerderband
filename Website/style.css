@@ -89,6 +89,10 @@ input {
     font: inherit;
 }
 
+input:focus {
+outline: 3px solid #005691;
+}
+
 button {
     margin-top: 12px;
     padding: 12px;
@@ -130,5 +134,50 @@ button:hover {
 
     button:hover {
         background: #40a0f0;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 28px 16px;
+        gap: 14px;
+    }
+
+    h1 {
+        font-size: 1.65rem;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    ul {
+        gap: 12px;
+    }
+
+    li {
+        width: 100%;
+        min-width: 0;
+        max-width: 360px;
+        padding: 16px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    input[type="date"] {    /* This is only needed for Safari on iOS, which has a bug that makes the date input field too wide otherwise */
+        display: block;
+        width: 330rem;
+        height: 44px;
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    input,
+    button {
+        padding: 12px;
     }
 }
