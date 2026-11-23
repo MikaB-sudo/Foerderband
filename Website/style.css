@@ -1,0 +1,13 @@
+body {
+font-family: Arial, sans-serif;
+color: #333333;
+background-color:rgb(224, 215, 215);
+}
+#formular {
+font-size: 1rem;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+

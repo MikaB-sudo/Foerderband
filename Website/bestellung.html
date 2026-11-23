@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Bestellung Kugeln</title>
+</head>
+<body>
+<h1>Kugel Bestellung</h1>
+<p>Bitte füllen sie das Formular aus</p>
+<form id="formular" action="/anmeldung" method="post"> 
+<label for="nachname">Nachname</label>
+<br><input type="text" id="nachname" name="nachname" required>
+
+<br><label for="vorname">Vorname</label>
+<br><input type="text" id="vorname" name="vorname" required>
+
+<br><label for="adresse">Straße und Hausnummer</label>
+<br><input type="text" id="adresse" name="adresse" required>
+
+<br><label for="plz">PLZ</label>
+<br><input type="text" id="plz" name="plz" required>
+
+<br><label for="wohnort">Wohnort</label>
+<br><input type="text" id="wohnort" name="wohnort" required>
+
+<br><label for="bestelldatum">Bestelldatum</label>
+<br><input type="date" id="bestelldatum" name="bestelldatum">
+
+<br><label for="wunschlieferdatum">Wunschlieferdatum</label>
+<br><input type="date" id="wunschlieferdatum" name="wunschlieferdatum">
+
+<br><label for="anzahl_rot">Anzahl Rot</label>
+<br><input type="number" id="anzahl_rot" name="anzahl_rot" min="0">
+
+<br><label for="anzahl_blau">Anzahl Blau</label>
+<br><input type="number" id="anzahl_blau" name="anzahl_blau" min="0">
+
+<br><label for="anzahl_gruen">Anzahl Grün</label>
+<br><input type="number" id="anzahl_gruen" name="anzahl_gruen" min="0"></br>
+
+<br><button type="submit">Bestellen</button>
+</form>
+<p><a href="index.html">Zurück</a></p>
+</body>
+</html>
