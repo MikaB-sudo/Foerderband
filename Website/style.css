@@ -68,7 +68,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 8px;
+    gap: 2px;
     background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
@@ -76,13 +76,14 @@ form {
 }
 
 label {
-    margin-top: 6px;
+    margin-top: 16px;
     font-weight: bold;
 }
 
+
 input {
     width: 100%;
-    margin-bottom: 4px;
+    margin-bottom: 0px;
     padding: 10px;
     border: 1px solid #aaa;
     border-radius: 4px;
@@ -125,6 +126,16 @@ button:hover {
 
     form {
         background: #444444;
+    }
+
+    input {
+        background: #333333;
+        color: #ffffff;
+        border-color: #777777;
+    }
+
+    input:focus {
+        outline-color: #90caf9;
     }
 
     button {
