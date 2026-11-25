@@ -91,7 +91,7 @@ input {
 }
 
 input:focus {
-outline: 3px solid #005691;
+    outline: 3px solid #6B8E7B;
 }
 
 button {
@@ -104,10 +104,16 @@ button {
     font: inherit;
     font-weight: bold;
     cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
 }
 
 button:hover {
     background: #0d47a1;
+    transform: scale(1.02); 
+}
+
+button:active {
+    transform: scale(0.97);                  
 }
 
 @media (prefers-color-scheme: dark) {

@@ -20,7 +20,7 @@
 <br><input type="text" id="adresse" name="adresse" required>
 
 <br><label for="plz">PLZ</label>
-<br><input type="text" id="plz" name="plz" required>
+<br><input type="text" id="plz" name="plz" required pattern="[0-9]{5}" maxlength="5" inputmode="numeric" title="Bitte 5 Ziffern eingeben">
 
 <br><label for="wohnort">Wohnort</label>
 <br><input type="text" id="wohnort" name="wohnort" required>
@@ -43,5 +43,6 @@
 <br><button type="submit">Bestellen</button>
 </form>
 <p><a href="index.html">Zurück</a></p>
+<script src="script.js"></script>                                   <!-- loads js file -->
 </body>
 </html>
