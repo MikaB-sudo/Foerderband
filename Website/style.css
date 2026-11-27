@@ -12,7 +12,7 @@ body {
     gap: 16px;
     font-family: Arial, sans-serif;
     color: #333333;
-    background-color: #e0d7d7;
+    background-color: #dcc5c5;
 }
 
 h1 {
@@ -91,7 +91,7 @@ input {
 }
 
 input:focus {
-    outline: 3px solid #6B8E7B;
+    outline: 3px solid #7c8fcd;
 }
 
 button {
